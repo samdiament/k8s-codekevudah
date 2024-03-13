@@ -1,0 +1,31 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+<table align="center" border="0" cellpadding="1" cellspacing="0" style="width:80%">
+    <tbody style="text-align: center;">
+        <tr>
+            <td>
+                <div>
+                    <form id="formHolidaySelect" action="/holidays" method="get">
+                        <label for="holidaySelect">Choose a holiday:</label>
+                        <select id="holidaySelect" name="holiday">
+                            <option value="Pesach">Pesach</option>
+                            <option value="Shavuos">Shavuos</option>
+                            <option value="Rosh_HaShanah">Rosh HaShanah</option>
+                            <option value="Yom Kippur">Yom Kippur</option>
+                            <option value="Sukkos">Sukkos</option>
+                            <option value="Shemini_Atzeres">Shemini Atzeres</option>
+                            <option value="Simchas_Torah">Simchas Torah`</option>
+                            <option vlaue="Chanukah">Chanukah</option>
+                            <option value="Tu_Bishvat">Tu Bishvat</option>
+                            <option value="Purim">Purim</option>
+                        </select><br/>
+                        <input type="reset" value="Reset"/>
+                        <input type="submit" value="Go!">
+
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+</table>
+<%- include('../partials/foot') %>
