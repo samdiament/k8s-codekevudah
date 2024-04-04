@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require('body-parser');
-const formidable = require("formidable");
+//const formidable = require("formidable");
+const { getHolidays } = require('./data/holidays.js');
 
 const app = express();
 
@@ -25,13 +26,16 @@ app.get('/', (req, res) => {
 
 app.get('/holidays', (req, res, next) => {
 
-    //const form = formidable({ multiples: true });  
+    //const form = formidable({ multiples: true });
+    holidays = getHolidays('./data/holidays.yml');
+    holidayQuery = holidays[req.query.holiday];
 
-    console.log(req.query.holiday);
+    //console.log(holidayQuery);
+    //console.log(req.query.holiday);
 
     res.render('pages/holidays', {
         pageTitle: "Jewish Holidays",
-        holiday: req.query.holiday,
+        holiday: holidayQuery
     });
 });
 
