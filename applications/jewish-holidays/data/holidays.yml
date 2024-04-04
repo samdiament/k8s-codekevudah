@@ -1,0 +1,132 @@
+holidays:
+  pesach:
+    name: pesach
+    namePretty: Pesach
+    dateStart: 15 Nisan
+    numDays:
+      israel: 7
+      diaspora: 8
+    description: Pesach is celebrated in the early spring, from the 15th through the 22nd of the Hebrew month of Nissan. Pesach commemorates the emancipation of the Israelites from slavery in ancient Egypt. Pesach is observed by avoiding leaven, and highlighted by the Seder meals that include four cups of wine, eating matzah and bitter herbs, and retelling the story of the Exodus.
+    keyElements:
+      - Seder
+      - 4 cups of wine
+      - Dayenu
+      - Mah nishtana
+      - No chametz
+      - Yizkor
+
+  shavuos:
+    name: shavuos
+    namePretty: Shavuos
+    dateStart: 6 Sivan
+    numDays:
+      israel: 1
+      diaspora: 2
+    description: Shavuos commemorates the date when G-d gave the Torah to the Jewish people at Mount Sinai over 3,000 years ago. Preceded by 49 days of counting in eager anticipation, Shavuot is celebrated through desisting from work, candle-lit dinners, staying up all night to study Torah, listening to the reading of the Ten Commandments in synagogue, enjoying dairy foods and other festivities.
+    keyElements:
+      - Matan Torah
+      - Dairy
+      - Aseres Hadibros
+      - Tikun l'eil Shavuos (all-night learning)
+      - Yizkor
+
+roshHashanah:
+  name: roshHashanah
+  namePretty: Rosh Hashanah
+  dateStart: 1 Tishrei
+  numDays:
+    israel: 2
+    diaspora: 2
+  description: Rosh Hashanah is the birthday of the universe, the day G-d created Adam and Eve, and it's celebrated as the Jewish New Year.
+  keyElements:
+    - Shofar
+    - Round challah
+    - Long davening
+
+yomKippur:
+  name: yomKippur
+  namePretty: Yom Kippur
+  dateStart: 10 Tishrei
+  numDays:
+    israel: 1
+    diaspora: 1
+  description: Yom Kippur fast day is the holiest day of the year — when we are closest to G-d and to the quintessence of our own souls. It is the Day of Atonement — “For on this day He will forgive you, to purify you, that you be cleansed from all your sins before G-d” (Leviticus 16:30).
+  keyElements:
+    - Fasting
+    - Long davening
+    - Viduy
+
+sukkos:
+  name: sukkos
+  namePretty: Sukkos
+  dateStart: 15 Tishrei
+  numDays:
+    israel: 7
+    diaspora: 7
+  description: Sukkot — when we expose ourselves to the elements in greenery-covered huts — commemorates G-d sheltering our ancestors as they traveled from Egypt to the Promised Land. The Four Kinds express our unity and our belief in G-d's omnipresence. Coming after the solemn High Holidays, Sukkot is a time of joy and happiness.
+  keyElements:
+    - Sukkah
+    - Arba minim
+    - Simcha
+
+sheminiAtzeres:
+  name: sheminiAtzeres
+  namePretty: Shemini Atzeres
+  dateStart: 22 Tishrei
+  numDays:
+    israel: 1
+    diaspora: 1
+  description: Shemini Atzeres is characterized by utterly unbridled joy, which reaches its climax on Simchat Torah, when we celebrate the conclusion—and restart—of the annual Torah-reading cycle.
+  keyElements:
+    - Yizkor
+
+simchasTorah:
+  name: simchasTorah
+  namePretty: Simchas Torah
+  dateStart: 23 Tishrei
+  numDays:
+    israel: 1
+    diaspora: 1
+  description: Simchas Torah is the festival immediately following Sukkot, on which the public reading of the Torah is annually concluded and recommenced; observed with great joy, singing and the Hakafot procession with the Torah scrolls
+  keyElements:
+    - Torah
+    - Hakafos
+
+chanukah:
+  name: chanukah
+  namePretty: Chanukah
+  dateStart: 25 Kislev
+  numDays:
+    israel: 8
+    diaspora: 8
+  description: Chanukah is the eight-day, wintertime “festival of lights,” celebrated with a nightly menorah lighting, special prayers and fried foods. The Hebrew word Chanukah means “dedication,” and is thus named because it celebrates the rededication of the Holy Temple.
+  keyElements:
+    - Menorah
+    - Dreidels
+    - Latkes
+    - Doughnuts
+
+tuBishvat:
+  name: tuBishvat
+  namePretty: Tu Bishvat
+  dateStart: 15 Shevat
+  numDays:
+    israel: 1
+    diaspora: 1
+  description: Tu Bishvat is the day that marks the beginning of a “new year” for trees. This day marks the season in which the earliest-blooming trees in the Land of Israel emerge from their winter sleep and begin a new fruit-bearing cycle.
+  keyElements:
+    - Trees
+    - Fruit
+
+purim:
+  name: purim
+  namePretty: Purim
+  dateStart: 14 Adar
+  numDays:
+    israel: 1
+    diaspora: 1
+  description: Purim commemorates the Divinely orchestrated salvation of the Jewish people in the ancient Persian Empire from Haman’s plot “to destroy, kill and annihilate all the Jews, young and old, infants and women, in a single day.” It is celebrated with Megillah readings, gifts of food, charity, feasting, and merriment.
+  keyElements:
+    - Megillah
+    - Mishloach Manot
+    - Matanot Le'evyonim

@@ -1,0 +1,3 @@
+FROM quay.io/fedora/httpd-24:latest
+COPY httpd.conf /etc/httpd/conf/httpd.conf
+

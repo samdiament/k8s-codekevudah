@@ -1,0 +1,107 @@
+[Mon Mar 18 00:35:55.852118 2024] [suexec:notice] [pid 1:tid 1] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Mon Mar 18 00:35:55.852185 2024] [ssl:info] [pid 1:tid 1] AH01883: Init: Initialized OpenSSL library
+[Mon Mar 18 00:35:55.852956 2024] [ssl:debug] [pid 1:tid 1] ssl_engine_init.c(353): AH01886: OpenSSL has FIPS mode disabled
+[Mon Mar 18 00:35:55.852989 2024] [ssl:info] [pid 1:tid 1] AH01887: Init: Initializing (virtual) servers for SSL
+[Mon Mar 18 00:35:55.854664 2024] [ssl:info] [pid 1:tid 1] AH01876: mod_ssl/2.4.58 compiled against Server: Apache/2.4.58, Library: OpenSSL/3.0.9
+[Mon Mar 18 00:35:55.854701 2024] [security2:notice] [pid 1:tid 1] ModSecurity for Apache/2.9.7 (http://www.modsecurity.org/) configured.
+[Mon Mar 18 00:35:55.854706 2024] [security2:notice] [pid 1:tid 1] ModSecurity: APR compiled version="1.7.2"; loaded version="1.7.2"
+[Mon Mar 18 00:35:55.854709 2024] [security2:notice] [pid 1:tid 1] ModSecurity: PCRE2 compiled version="10.42 "; loaded version="10.42 2022-12-11"
+[Mon Mar 18 00:35:55.854711 2024] [security2:notice] [pid 1:tid 1] ModSecurity: LUA compiled version="Lua 5.4"
+[Mon Mar 18 00:35:55.854712 2024] [security2:notice] [pid 1:tid 1] ModSecurity: YAJL compiled version="2.1.0"
+[Mon Mar 18 00:35:55.854714 2024] [security2:notice] [pid 1:tid 1] ModSecurity: LIBXML compiled version="2.10.3"
+[Mon Mar 18 00:35:55.854716 2024] [security2:notice] [pid 1:tid 1] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+[Mon Mar 18 00:35:55.854724 2024] [http2:debug] [pid 1:tid 1] mod_http2.c(112): AH03089: initializing post config dry run
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 10.0.2.100. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 18 00:35:55.875032 2024] [ssl:info] [pid 1:tid 1] AH01883: Init: Initialized OpenSSL library
+[Mon Mar 18 00:35:55.875063 2024] [ssl:debug] [pid 1:tid 1] ssl_engine_init.c(353): AH01886: OpenSSL has FIPS mode disabled
+[Mon Mar 18 00:35:55.875075 2024] [socache_shmcb:debug] [pid 1:tid 1] mod_socache_shmcb.c(414): AH00821: shmcb_init allocated 512000 bytes of shared memory
+[Mon Mar 18 00:35:55.875078 2024] [socache_shmcb:debug] [pid 1:tid 1] mod_socache_shmcb.c(428): AH00822: for 511912 bytes (512000 including header), recommending 32 subcaches, 88 indexes each
+[Mon Mar 18 00:35:55.875080 2024] [socache_shmcb:debug] [pid 1:tid 1] mod_socache_shmcb.c(465): AH00824: shmcb_init_memory choices follow
+[Mon Mar 18 00:35:55.875082 2024] [socache_shmcb:debug] [pid 1:tid 1] mod_socache_shmcb.c(467): AH00825: subcache_num = 32
+[Mon Mar 18 00:35:55.875084 2024] [socache_shmcb:debug] [pid 1:tid 1] mod_socache_shmcb.c(469): AH00826: subcache_size = 15992
+[Mon Mar 18 00:35:55.875085 2024] [socache_shmcb:debug] [pid 1:tid 1] mod_socache_shmcb.c(471): AH00827: subcache_data_offset = 2128
+[Mon Mar 18 00:35:55.875087 2024] [socache_shmcb:debug] [pid 1:tid 1] mod_socache_shmcb.c(473): AH00828: subcache_data_size = 13864
+[Mon Mar 18 00:35:55.875089 2024] [socache_shmcb:debug] [pid 1:tid 1] mod_socache_shmcb.c(475): AH00829: index_num = 88
+[Mon Mar 18 00:35:55.875131 2024] [socache_shmcb:info] [pid 1:tid 1] AH00830: Shared memory socache initialised
+[Mon Mar 18 00:35:55.875133 2024] [ssl:info] [pid 1:tid 1] AH01887: Init: Initializing (virtual) servers for SSL
+[Mon Mar 18 00:35:55.876454 2024] [ssl:info] [pid 1:tid 1] AH01876: mod_ssl/2.4.58 compiled against Server: Apache/2.4.58, Library: OpenSSL/3.0.9
+[Mon Mar 18 00:35:55.876482 2024] [slotmem_shm:debug] [pid 1:tid 1] mod_slotmem_shm.c(495): AH02301: attach looking for /etc/httpd/run/slotmem-shm-mod_heartmonitor_0.shm
+[Mon Mar 18 00:35:55.876492 2024] [lbmethod_heartbeat:notice] [pid 1:tid 1] AH02282: No slotmem from mod_heartmonitor
+[Mon Mar 18 00:35:55.877185 2024] [ldap:debug] [pid 1:tid 1] util_ldap.c(3039): AH01316: LDAP merging Shared Cache conf: shm=0x55e35bcab170 rmm=0x55e35bcab1c0 for VHOST: 10.0.2.100
+[Mon Mar 18 00:35:55.877565 2024] [ldap:info] [pid 1:tid 1] AH01318: APR LDAP: Built with OpenLDAP LDAP SDK
+[Mon Mar 18 00:35:55.877584 2024] [ldap:info] [pid 1:tid 1] AH01319: LDAP: SSL support available
+[Mon Mar 18 00:35:55.877592 2024] [http2:info] [pid 1:tid 1] AH03090: mod_http2 (v2.0.25-git, feats=CHPRIO+SHA256+INVHD+DWINS, nghttp2 1.52.0), initializing...
+[Mon Mar 18 00:35:55.877625 2024] [proxy_http2:info] [pid 1:tid 1] AH03349: mod_proxy_http2 (v2.0.25-git, nghttp2 1.52.0), initializing...
+[Mon Mar 18 00:35:55.877634 2024] [proxy_hcheck:debug] [pid 1:tid 1] mod_proxy_hcheck.c(1158): AH03265: watchdog callback registered (_proxy_hcheck_ for 10.0.2.100)
+[Mon Mar 18 00:35:55.877642 2024] [watchdog:debug] [pid 1:tid 1] mod_watchdog.c(445): AH010033: Watchdog: Running with WatchdogInterval 1000ms
+[Mon Mar 18 00:35:55.877645 2024] [watchdog:debug] [pid 1:tid 1] mod_watchdog.c(454): AH02974: Watchdog: found parent providers.
+[Mon Mar 18 00:35:55.877647 2024] [watchdog:debug] [pid 1:tid 1] mod_watchdog.c(500): AH02977: Watchdog: found child providers.
+[Mon Mar 18 00:35:55.877649 2024] [watchdog:debug] [pid 1:tid 1] mod_watchdog.c(508): AH02978: Watchdog: Looking for child (_proxy_hcheck_).
+[Mon Mar 18 00:35:55.877662 2024] [watchdog:debug] [pid 1:tid 1] mod_watchdog.c(534): AH02979: Watchdog: Created singleton mutex (_proxy_hcheck_).
+[Mon Mar 18 00:35:55.877665 2024] [watchdog:debug] [pid 1:tid 1] mod_watchdog.c(508): AH02978: Watchdog: Looking for child (_singleton_).
+[Mon Mar 18 00:35:55.877667 2024] [watchdog:debug] [pid 1:tid 1] mod_watchdog.c(508): AH02978: Watchdog: Looking for child (_default_).
+[Mon Mar 18 00:35:55.878722 2024] [mpm_event:debug] [pid 1:tid 1] event.c(740): Child 0 started: pid 47, gen 0, active 1/16, total 1/1/16
+[Mon Mar 18 00:35:55.879258 2024] [mpm_event:debug] [pid 1:tid 1] event.c(740): Child 1 started: pid 48, gen 0, active 2/16, total 2/2/16
+[Mon Mar 18 00:35:55.879534 2024] [watchdog:debug] [pid 47:tid 47] mod_watchdog.c(582): AH02981: Watchdog: Created child worker thread (_proxy_hcheck_).
+[Mon Mar 18 00:35:55.879543 2024] [watchdog:debug] [pid 47:tid 49] mod_watchdog.c(168): AH02972: Singleton Watchdog (_proxy_hcheck_) running
+[Mon Mar 18 00:35:55.879630 2024] [proxy_hcheck:debug] [pid 47:tid 49] mod_proxy_hcheck.c(981): AH03258: _proxy_hcheck_ watchdog started.
+[Mon Mar 18 00:35:55.879648 2024] [proxy:debug] [pid 47:tid 47] proxy_util.c(2154): AH00925: initializing worker proxy:reverse shared
+[Mon Mar 18 00:35:55.879662 2024] [proxy:debug] [pid 47:tid 47] proxy_util.c(2214): AH00927: initializing worker proxy:reverse local
+[Mon Mar 18 00:35:55.879670 2024] [proxy:debug] [pid 47:tid 47] proxy_util.c(2245): AH00930: initialized pool in child 47 for (*:80) min=0 max=61 smax=61
+[Mon Mar 18 00:35:55.879700 2024] [http2:info] [pid 47:tid 47] h2_workers: created with min=25 max=37 idle_ms=600000
+[Mon Mar 18 00:35:55.879798 2024] [mpm_event:debug] [pid 1:tid 1] event.c(740): Child 2 started: pid 57, gen 0, active 3/16, total 3/3/16
+[Mon Mar 18 00:35:55.879805 2024] [mpm_event:notice] [pid 1:tid 1] AH00489: Apache/2.4.58 (Fedora Linux) OpenSSL/3.0.9 configured -- resuming normal operations
+[Mon Mar 18 00:35:55.879808 2024] [mpm_event:info] [pid 1:tid 1] AH00490: Server built: Oct 20 2023 00:00:00
+[Mon Mar 18 00:35:55.879815 2024] [core:notice] [pid 1:tid 1] AH00094: Command line: 'httpd -D FOREGROUND'
+[Mon Mar 18 00:35:55.879819 2024] [core:debug] [pid 1:tid 1] log.c(1601): AH02639: Using SO_REUSEPORT: yes (1)
+[Mon Mar 18 00:35:55.880040 2024] [proxy_hcheck:debug] [pid 47:tid 49] mod_proxy_hcheck.c(995): AH03313: apr_thread_pool_create() with 16 threads succeeded
+[Mon Mar 18 00:35:55.880060 2024] [watchdog:debug] [pid 48:tid 48] mod_watchdog.c(582): AH02981: Watchdog: Created child worker thread (_proxy_hcheck_).
+[Mon Mar 18 00:35:55.880100 2024] [proxy:debug] [pid 48:tid 48] proxy_util.c(2154): AH00925: initializing worker proxy:reverse shared
+[Mon Mar 18 00:35:55.880113 2024] [proxy:debug] [pid 48:tid 48] proxy_util.c(2214): AH00927: initializing worker proxy:reverse local
+[Mon Mar 18 00:35:55.880119 2024] [proxy:debug] [pid 48:tid 48] proxy_util.c(2245): AH00930: initialized pool in child 48 for (*:80) min=0 max=61 smax=61
+[Mon Mar 18 00:35:55.880144 2024] [http2:info] [pid 48:tid 48] h2_workers: created with min=25 max=37 idle_ms=600000
+[Mon Mar 18 00:35:55.880773 2024] [mpm_event:debug] [pid 47:tid 118] event.c(2401): AH02471: start_threads: Using epoll (wakeable)
+[Mon Mar 18 00:35:55.880788 2024] [mpm_event:debug] [pid 48:tid 119] event.c(2401): AH02471: start_threads: Using epoll (wakeable)
+[Mon Mar 18 00:35:55.880789 2024] [watchdog:debug] [pid 57:tid 57] mod_watchdog.c(582): AH02981: Watchdog: Created child worker thread (_proxy_hcheck_).
+[Mon Mar 18 00:35:55.880824 2024] [proxy:debug] [pid 57:tid 57] proxy_util.c(2154): AH00925: initializing worker proxy:reverse shared
+[Mon Mar 18 00:35:55.880837 2024] [proxy:debug] [pid 57:tid 57] proxy_util.c(2214): AH00927: initializing worker proxy:reverse local
+[Mon Mar 18 00:35:55.880843 2024] [proxy:debug] [pid 57:tid 57] proxy_util.c(2245): AH00930: initialized pool in child 57 for (*:80) min=0 max=61 smax=61
+[Mon Mar 18 00:35:55.880865 2024] [http2:info] [pid 57:tid 57] h2_workers: created with min=25 max=37 idle_ms=600000
+[Mon Mar 18 00:35:55.881564 2024] [mpm_event:debug] [pid 57:tid 198] event.c(2401): AH02471: start_threads: Using epoll (wakeable)
+[Mon Mar 18 00:36:01.982640 2024] [authz_core:debug] [pid 57:tid 199] mod_authz_core.c(815): [client 10.0.2.100:44150] AH01626: authorization result of Require all granted: granted
+[Mon Mar 18 00:36:01.982749 2024] [authz_core:debug] [pid 57:tid 199] mod_authz_core.c(815): [client 10.0.2.100:44150] AH01626: authorization result of <RequireAny>: granted
+[Mon Mar 18 00:36:01.983073 2024] [authz_core:debug] [pid 57:tid 199] mod_authz_core.c(815): [client 10.0.2.100:44150] AH01626: authorization result of Require all granted: granted
+[Mon Mar 18 00:36:01.983099 2024] [authz_core:debug] [pid 57:tid 199] mod_authz_core.c(815): [client 10.0.2.100:44150] AH01626: authorization result of <RequireAny>: granted
+[Mon Mar 18 00:36:03.468935 2024] [authz_core:debug] [pid 57:tid 200] mod_authz_core.c(815): [client 10.0.2.100:44150] AH01626: authorization result of Require all granted: granted
+[Mon Mar 18 00:36:03.468963 2024] [authz_core:debug] [pid 57:tid 200] mod_authz_core.c(815): [client 10.0.2.100:44150] AH01626: authorization result of <RequireAny>: granted
+[Mon Mar 18 00:36:03.469015 2024] [authz_core:debug] [pid 57:tid 200] mod_authz_core.c(815): [client 10.0.2.100:44150] AH01626: authorization result of Require all granted: granted
+[Mon Mar 18 00:36:03.469025 2024] [authz_core:debug] [pid 57:tid 200] mod_authz_core.c(815): [client 10.0.2.100:44150] AH01626: authorization result of <RequireAny>: granted
+[Mon Mar 18 00:36:51.931216 2024] [authz_core:debug] [pid 57:tid 202] mod_authz_core.c(815): [client 10.0.2.100:60198] AH01626: authorization result of Require all granted: granted
+[Mon Mar 18 00:36:51.931258 2024] [authz_core:debug] [pid 57:tid 202] mod_authz_core.c(815): [client 10.0.2.100:60198] AH01626: authorization result of <RequireAny>: granted
+[Mon Mar 18 00:36:51.931327 2024] [authz_core:debug] [pid 57:tid 202] mod_authz_core.c(815): [client 10.0.2.100:60198] AH01626: authorization result of Require all granted: granted
+[Mon Mar 18 00:36:51.931347 2024] [authz_core:debug] [pid 57:tid 202] mod_authz_core.c(815): [client 10.0.2.100:60198] AH01626: authorization result of <RequireAny>: granted
+[Mon Mar 18 00:36:54.408735 2024] [authz_core:debug] [pid 57:tid 203] mod_authz_core.c(815): [client 10.0.2.100:60198] AH01626: authorization result of Require all granted: granted
+[Mon Mar 18 00:36:54.408807 2024] [authz_core:debug] [pid 57:tid 203] mod_authz_core.c(815): [client 10.0.2.100:60198] AH01626: authorization result of <RequireAny>: granted
+[Mon Mar 18 00:36:54.408868 2024] [authz_core:debug] [pid 57:tid 203] mod_authz_core.c(815): [client 10.0.2.100:60198] AH01626: authorization result of Require all granted: granted
+[Mon Mar 18 00:36:54.408878 2024] [authz_core:debug] [pid 57:tid 203] mod_authz_core.c(815): [client 10.0.2.100:60198] AH01626: authorization result of <RequireAny>: granted
+[Mon Mar 18 01:10:28.096569 2024] [authz_core:debug] [pid 48:tid 122] mod_authz_core.c(815): [client 10.0.2.100:56428] AH01626: authorization result of Require all granted: granted
+[Mon Mar 18 01:10:28.096681 2024] [authz_core:debug] [pid 48:tid 122] mod_authz_core.c(815): [client 10.0.2.100:56428] AH01626: authorization result of <RequireAny>: granted
+[Mon Mar 18 01:10:28.097101 2024] [authz_core:debug] [pid 48:tid 122] mod_authz_core.c(815): [client 10.0.2.100:56428] AH01626: authorization result of Require all granted: granted
+[Mon Mar 18 01:10:28.097145 2024] [authz_core:debug] [pid 48:tid 122] mod_authz_core.c(815): [client 10.0.2.100:56428] AH01626: authorization result of <RequireAny>: granted
+[Mon Mar 18 01:10:32.342392 2024] [mpm_event:debug] [pid 47:tid 47] event.c(575): wake up listener
+[Mon Mar 18 01:10:32.342430 2024] [mpm_event:debug] [pid 48:tid 48] event.c(575): wake up listener
+[Mon Mar 18 01:10:32.342438 2024] [mpm_event:debug] [pid 57:tid 57] event.c(575): wake up listener
+[Mon Mar 18 01:10:32.343251 2024] [http2:debug] [pid 57:tid 57] h2_workers.c(379): h2_workers: cleanup 25 workers (25 idle)
+[Mon Mar 18 01:10:32.343391 2024] [http2:debug] [pid 48:tid 48] h2_workers.c(379): h2_workers: cleanup 25 workers (25 idle)
+[Mon Mar 18 01:10:32.343444 2024] [http2:debug] [pid 57:tid 57] h2_workers.c(416): h2_workers: cleanup all workers terminated
+[Mon Mar 18 01:10:32.343603 2024] [http2:debug] [pid 48:tid 48] h2_workers.c(416): h2_workers: cleanup all workers terminated
+[Mon Mar 18 01:10:32.343651 2024] [http2:debug] [pid 57:tid 57] h2_workers.c(421): h2_workers: cleanup zombie workers joined
+[Mon Mar 18 01:10:32.343694 2024] [http2:debug] [pid 47:tid 47] h2_workers.c(379): h2_workers: cleanup 25 workers (25 idle)
+[Mon Mar 18 01:10:32.343799 2024] [http2:debug] [pid 48:tid 48] h2_workers.c(421): h2_workers: cleanup zombie workers joined
+[Mon Mar 18 01:10:32.343895 2024] [http2:debug] [pid 47:tid 47] h2_workers.c(416): h2_workers: cleanup all workers terminated
+[Mon Mar 18 01:10:32.344116 2024] [http2:debug] [pid 47:tid 47] h2_workers.c(421): h2_workers: cleanup zombie workers joined
+[Mon Mar 18 01:10:32.359711 2024] [mpm_event:debug] [pid 1:tid 1] event.c(715): Child 0 stopped: pid 47, gen 0, active 2/16, total 2/3/16, quiescing 1
+[Mon Mar 18 01:10:32.359877 2024] [mpm_event:debug] [pid 1:tid 1] event.c(715): Child 1 stopped: pid 48, gen 0, active 1/16, total 1/3/16, quiescing 1
+[Mon Mar 18 01:10:32.359889 2024] [mpm_event:debug] [pid 1:tid 1] event.c(715): Child 2 stopped: pid 57, gen 0, active 0/16, total 0/3/16, quiescing 1
+[Mon Mar 18 01:10:32.360426 2024] [core:info] [pid 1:tid 1] AH00096: removed PID file /etc/httpd/run/httpd.pid (pid=1)
+[Mon Mar 18 01:10:32.360434 2024] [mpm_event:notice] [pid 1:tid 1] AH00491: caught SIGTERM, shutting down

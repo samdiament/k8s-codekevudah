@@ -1,0 +1,2 @@
+[Mon Mar 18 00:35:55.854549 2024] [ssl:warn] [pid 1:tid 1] AH01909: 10.0.2.100:8443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 18 00:35:55.876345 2024] [ssl:warn] [pid 1:tid 1] AH01909: 10.0.2.100:8443:0 server certificate does NOT include an ID which matches the server name
