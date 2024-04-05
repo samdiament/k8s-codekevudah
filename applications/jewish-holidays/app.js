@@ -28,14 +28,14 @@ app.get('/holidays', (req, res, next) => {
 
     //const form = formidable({ multiples: true });
     holidays = getHolidays('./data/holidays.yml');
-    holidayQuery = holidays[req.query.holiday];
 
-    //console.log(holidayQuery);
+    //console.log(holidays['holidays']['pesach']);
+    //console.log(holidays['holidays'][req.query.holiday]);
     //console.log(req.query.holiday);
 
     res.render('pages/holidays', {
         pageTitle: "Jewish Holidays",
-        holiday: holidayQuery
+        holiday: holidays['holidays'][req.query.holiday]
     });
 });
 
