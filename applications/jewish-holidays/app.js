@@ -9,6 +9,8 @@ app.set('view engine', 'ejs');
 
 const PORT = 3000;
 app.use(express.json()) // -> req.body
+app.use(express.static(__dirname + '/public')); // set up static directory for public files - including css
+
 
 // create application/json parser
 var jsonParser = bodyParser.json()
@@ -38,6 +40,15 @@ app.get('/holidays', (req, res, next) => {
         holiday: holidays['holidays'][req.query.holiday]
     });
 });
+
+app.get('/holidays', (req, res, next) => {
+    holidays = getHolidays('./data/holidays.yml');
+
+    res.render('pages/holidays-all', {
+        pageTitle: "Jewish Holidays",
+        holidays: holidays
+    });
+})
 
 
 app.listen(PORT, () => {

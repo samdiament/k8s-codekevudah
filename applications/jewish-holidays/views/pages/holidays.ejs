@@ -1,15 +1,62 @@
 <%- include('../partials/head') %>
 <%- include('../partials/header') %>
 
-<div>
-    <!-- <%= holiday['name'] %> <br/> -->
-    <%= holiday['namePretty'] %> <br/>
-    <%= holiday['dateStart'] %> <br/>
-    <%= holiday['numDays']['diaspora'] %> <br/>
-    <%= holiday['numDays']['israel'] %> <br />
-    <%= holiday['description'] %> <br />
-    <%= holiday['keyElements'] %> <br />
-</div>
+        <table class="holidays__table">
+            <tr class="holidays__table-row">
+                <td class="holidays__cell--label">
+                    Name: 
+                </td>
+                <td class="holidays__cell--value">
+                    <%= holiday['namePretty'] %>
+
+                </td>
+            </tr>
+            <tr class="holidays__table-row">
+                <td class="holidays__cell--label">
+                    Start Date: 
+                </td>
+                <td class="holidays__cell--value">
+                    <%= holiday['dateStart'] %>
+
+                </td>
+            </tr>
+            <tr class="holidays__table-row">
+                <td class="holidays__cell--label">
+                    Number of Days: 
+                </td>
+                <td class="holidays__cell--value">
+                    In Eretz Yisroel: <%= holiday['numDays']['israel'] %> <br />
+                    Outside Eretz Yisroel: <%= holiday['numDays']['diaspora'] %>
+                </td>
+            </tr>
+            <tr class="holidays__table-row">
+                <td class="holidays__cell--label">
+                    Description: 
+                </td>
+                <td class="holidays__cell--value">
+                    <%= holiday['description'] %>
+
+
+                </td>
+            </tr>
+            <tr class="holidays__table-row">
+                <td class="holidays__cell--label">
+                    Key Elements: 
+                </td>
+                <td class="holidays__cell--value">
+                    <ul>
+                        <% holiday['keyElements'].forEach((element)=>{
+                            %>
+                                <li><%= element %></li>
+                            <%
+                            }) %>
+                    </ul>
+                    
+
+
+                </td>
+            </tr> 
+        </table>
 
 
 <%- include('../partials/foot') %>
